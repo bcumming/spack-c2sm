@@ -1,0 +1,27 @@
+compilers:
+- compiler:
+    spec: gcc@=12.3.0
+    paths:
+      cc: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/gcc-12.3.0-rmb57c6arvlque6guusegoyn5xsbjxfn/bin/gcc
+      cxx: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/gcc-12.3.0-rmb57c6arvlque6guusegoyn5xsbjxfn/bin/g++
+      f77: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/gcc-12.3.0-rmb57c6arvlque6guusegoyn5xsbjxfn/bin/gfortran
+      fc: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/gcc-12.3.0-rmb57c6arvlque6guusegoyn5xsbjxfn/bin/gfortran
+    flags: {}
+    operating_system: ubuntu22.04
+    target: aarch64
+    modules: []
+    environment: {}
+    extra_rpaths: []
+- compiler:
+    spec: nvhpc@=23.3
+    paths:
+      cc: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/nvhpc-23.3-enq3ca3yw2kjtcw54yazv2bg5jumbyqd/Linux_aarch64/23.3/compilers/bin/nvc
+      cxx: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/nvhpc-23.3-enq3ca3yw2kjtcw54yazv2bg5jumbyqd/Linux_aarch64/23.3/compilers/bin/nvc++
+      f77: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/nvhpc-23.3-enq3ca3yw2kjtcw54yazv2bg5jumbyqd/Linux_aarch64/23.3/compilers/bin/nvfortran
+      fc: /user-environment/linux-ubuntu22.04-neoverse_n1/gcc-12.3.0/nvhpc-23.3-enq3ca3yw2kjtcw54yazv2bg5jumbyqd/Linux_aarch64/23.3/compilers/bin/nvfortran
+    flags: {}
+    operating_system: ubuntu22.04
+    target: aarch64
+    modules: []
+    environment: {}
+    extra_rpaths: []
